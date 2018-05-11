@@ -1,0 +1,173 @@
+[
+    {
+        "id": 1,
+        "title": "1平日48小时滑雪",
+        "description": "平日48小时滑雪套票",
+        "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+        "price": 23.31,
+        "userNum": 2,
+        "type": "ticket"
+    },
+    {
+        "id": 2,
+        "title": "2平日48小时滑雪",
+        "description": "平日48小时滑雪套票",
+        "thumb": "http://static.journeynes.com/article/upload_2abcd6bbe14ce91e796739a051ff063c.jpg",
+        "price": 309.31,
+        "userNum": 1,
+        "type": "ticket"
+    },
+    {
+        "id": 3,
+        "title": "3平日48小时滑雪3",
+        "description": "平日48小时滑雪套票",
+        "thumb": "http://static.journeynes.com/article/upload_cadf321725fec1b619706bd50634cfa3.jpg",
+        "price": 1309.31,
+        "userNum": 5,
+        "type": "ticket"
+    },
+    {
+        "id": 4,
+        "title": "4平日48小时滑雪4",
+        "description": "平日48小时滑雪套票",
+        "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+        "price": 23.31,
+        "userNum": 2,
+        "type": "ticket"
+    },
+    {
+        "id": 5,
+        "title": "5平日48小时滑雪5",
+        "description": "平日48小时滑雪套票",
+        "thumb": "http://static.journeynes.com/article/upload_2abcd6bbe14ce91e796739a051ff063c.jpg",
+        "price": 309.31,
+        "userNum": 1,
+        "type": "ticket"
+    },
+    {
+        "id": 6,
+        "title": "6平日48小时滑雪3",
+        "description": "平日48小时滑雪套票",
+        "thumb": "http://static.journeynes.com/article/upload_cadf321725fec1b619706bd50634cfa3.jpg",
+        "price": 1309.31,
+        "userNum": 5,
+        "type": "ticket"
+    },
+    {
+        "id": 7,
+        "title": "7平日48小时滑雪1",
+        "description": "平日48小时滑雪套票",
+        "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+        "price": 23.31,
+        "userNum": 2,
+        "type": "ticket"
+    },
+    {
+        "id": 8,
+        "title": "8平日48小时滑雪2",
+        "description": "平日48小时滑雪套票",
+        "thumb": "http://static.journeynes.com/article/upload_2abcd6bbe14ce91e796739a051ff063c.jpg",
+        "price": 309.31,
+        "userNum": 1,
+        "type": "ticket"
+    },
+    {
+        "id": 9,
+        "title": "9平日48小时滑雪3",
+        "description": "平日48小时滑雪套票",
+        "thumb": "http://static.journeynes.com/article/upload_cadf321725fec1b619706bd50634cfa3.jpg",
+        "price": 1309.31,
+        "userNum": 5,
+        "type": "ticket"
+    },
+    {
+        "id": 10,
+        "title": "10平日48小时滑雪1",
+        "description": "平日48小时滑雪套票",
+        "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+        "price": 23.31,
+        "userNum": 2,
+        "type": "ticket"
+    },
+    {
+        "id": 11,
+        "title": "11平日48小时滑雪2",
+        "description": "平日48小时滑雪套票",
+        "thumb": "http://static.journeynes.com/article/upload_2abcd6bbe14ce91e796739a051ff063c.jpg",
+        "price": 309.31,
+        "userNum": 1,
+        "type": "ticket"
+    },
+    {
+        "id": 12,
+        "title": "12平日48小时滑雪3",
+        "description": "平日48小时滑雪套票",
+        "thumb": "http://static.journeynes.com/article/upload_cadf321725fec1b619706bd50634cfa3.jpg",
+        "price": 1309.31,
+        "userNum": 5,
+        "type": "ticket"
+    },
+    {
+        "id": 13,
+        "title": "13平日48小时滑雪1",
+        "description": "平日48小时滑雪套票",
+        "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+        "price": 23.31,
+        "userNum": 2,
+        "type": "ticket"
+    },
+    {
+        "id": 14,
+        "title": "14平日48小时滑雪2",
+        "description": "平日48小时滑雪套票",
+        "thumb": "http://static.journeynes.com/article/upload_2abcd6bbe14ce91e796739a051ff063c.jpg",
+        "price": 309.31,
+        "userNum": 1,
+        "type": "ticket"
+    },
+    {
+        "id": 15,
+        "title": "15平日48小时滑雪3",
+        "description": "平日48小时滑雪套票",
+        "thumb": "http://static.journeynes.com/article/upload_cadf321725fec1b619706bd50634cfa3.jpg",
+        "price": 1309.31,
+        "userNum": 5,
+        "type": "ticket"
+    },
+    {
+        "id": 16,
+        "title": "1两天一晚精品酒店",
+        "description": "大床房",
+        "thumb": "http://static.journeynes.com/article/upload_cadf321725fec1b619706bd50634cfa3.jpg",
+        "price": 1309.31,
+        "userNum": 1,
+        "type": "hotel"
+    },
+    {
+        "id": 17,
+        "title": "2两天一晚精品酒店",
+        "description": "大床房",
+        "thumb": "http://static.journeynes.com/article/upload_2abcd6bbe14ce91e796739a051ff063c.jpg",
+        "price": 111.31,
+        "userNum": 1,
+        "type": "hotel"
+    },
+    {
+        "id": 18,
+        "title": "3五星级酒店标间",
+        "description": "大床房",
+        "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+        "price": 44.31,
+        "userNum": 2,
+        "type": "hotel"
+    },
+    {
+        "id": 19,
+        "title": "半天教练",
+        "description": "半天教练滑雪服务",
+        "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+        "price": 44.31,
+        "userNum": 1,
+        "type": "teacher"
+    }
+]

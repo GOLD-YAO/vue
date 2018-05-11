@@ -1,0 +1,32 @@
+[
+    {
+        "title": "酒店",
+        "icon": "http://static.journeynes.com/cms/commodity.png",
+        "type": "hotel"
+    },
+    {
+        "title": "雪票",
+        "icon": "http://static.journeynes.com/cms/ticket.png",
+        "type": "ticket"
+    },
+    {
+        "title": "教练",
+        "icon": "http://static.journeynes.com/cms/teacher.png",
+        "type": "teacher"
+    },
+    {
+        "title": "商品",
+        "icon": "http://static.journeynes.com/cms/hotel.png",
+        "type": "product"
+    },
+    {
+        "title": "餐饮",
+        "icon": "http://static.journeynes.com/cms/ticket.png",
+        "type": "food"
+    },
+    {
+        "title": "其他",
+        "icon": "http://static.journeynes.com/cms/teacher.png",
+        "type": "other"
+    }
+]

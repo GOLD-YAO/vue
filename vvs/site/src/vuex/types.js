@@ -1,0 +1,39 @@
+//首页mutations
+export const INIT_SWIPE = 'INIT_SWIPE'
+
+export const INIT_CATEGORY = 'INIT_CATEGORY'
+
+export const INIT_CATEGORY_LIST = 'INIT_CATEGORY_LIST'
+
+export const LOAD_MORE_LIST = 'LOAD_MORE_LIST'
+
+export const HAS_MORE_LIST = 'HAS_MORE_LIST'
+
+//内容详情页
+export const INIT_CONTENT_INFO = 'INIT_CONTENT_INFO'
+
+//用户中心
+export const INIT_LOGING_USER = 'INIT_LOGING_USER'
+
+export const USER_LOGOUT_ACTION = 'USER_LOGOUT_ACTION'
+
+//订单列表
+export const INIT_ORDER_LIST = 'INIT_ORDER_LIST'
+
+export const SWITCH_ORDER_TYPE = 'SWITCH_ORDER_TYPE'
+
+//清除订单列表
+export const CLEAR_ORDER_LIST = 'CLEAR_ORDER_LIST'
+
+//购物车选中结算
+export const SELECT_PRODUCT_INDEX = 'SELECT_PRODUCT_INDEX'
+
+//搜索保存
+export const SWITCH_SEARCH_RESULT = 'SWITCH_SEARCH_RESULT'
+
+export const SWITCH_SEARCH_KEYWORD = 'SWITCH_SEARCH_KEYWORD'
+
+//办理押金状态保存
+export const DEPOSIT_ORDER_INFO = 'DEPOSIT_ORDER_INFO'
+
+export const CLEAR_DEPOSIT_INFO = 'CLEAR_DEPOSIT_INFO'

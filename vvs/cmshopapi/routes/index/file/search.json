@@ -1,0 +1,37 @@
+[
+    {
+        "type": "票务",
+        "products": [
+            {
+                "id": 1,
+                "title": "1平日48小时滑雪",
+                "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg"
+            },
+            {
+                "id": 2,
+                "title": "2平日48小时滑雪",
+                "thumb": "http://static.journeynes.com/article/upload_2abcd6bbe14ce91e796739a051ff063c.jpg"
+            }
+        ]
+    },
+    {
+        "type": "酒店",
+        "products": [
+            {
+                "id": 17,
+                "title": "2两天一晚精品酒店",
+                "thumb": "http://static.journeynes.com/article/upload_2abcd6bbe14ce91e796739a051ff063c.jpg"
+            }
+        ]
+    },
+    {
+        "type": "教练",
+        "products": [
+            {
+                "id": 19,
+                "title": "半天教练",
+                "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg"
+            }
+        ]
+    }
+]

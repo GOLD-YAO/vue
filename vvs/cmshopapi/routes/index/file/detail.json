@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "category": "票务",
+        "title": "1平日48小时滑雪",
+        "description": "平日48小时滑雪套票",
+        "thumb": {
+            "thumbUrl": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+            "linkUrl": "http://www.baidu.com"
+        },
+        "price": 123,
+        "parameters": {
+            "消费日期": "2017-3-1 至 2018-3-3",
+            "消费时段": "周日，周六"
+        },
+        "content" : "<p><img src=\"http://static.journeynes.com/article/upload_e3597666edc8ee9fcdecaff42521e4e9.png\" alt=\"6\" style=\"max-width:100%;\"></p><p><font size=\"3\">Promises are about making asynchronous code retain most of the lost properties of synchronous code such as flat indentation and one exception channel. – Bluebird Wiki: Promise Anti Patterns</font></p><p></p><p><font size=\"3\">Promises 是为了让异步代码也能保持这些同步代码的属性：扁平缩进和单异常管道。</font></p><pre style=\"max-width:100%;overflow-x:auto;\"><code class=\"javascript hljs\" codemark=\"1\"><span class=\"hljs-comment\">//Code copyright by Twisternha http://stackoverflow.com/a/19486699/995876 CC BY-SA 2.5</span>\nmyApp.factory(<span class=\"hljs-string\">'Configurations'</span>, <span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> (<span class=\"hljs-params\">Restangular, MotorRestangular, $q</span>) </span>{\n    <span class=\"hljs-keyword\">var</span> getConfigurations = <span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> (<span class=\"hljs-params\"></span>) </span>{\n        <span class=\"hljs-keyword\">var</span> deferred = $q.defer();\n\n        MotorRestangular.all(<span class=\"hljs-string\">'Motors'</span>).getList().then(<span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> (<span class=\"hljs-params\">Motors</span>) </span>{\n            <span class=\"hljs-comment\">//Group by Config</span>\n            <span class=\"hljs-keyword\">var</span> g = _.groupBy(Motors, <span class=\"hljs-string\">'configuration'</span>);\n            <span class=\"hljs-comment\">//Map values</span>\n            <span class=\"hljs-keyword\">var</span> mapped = _.map(g, <span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> (<span class=\"hljs-params\">m</span>) </span>{\n                <span class=\"hljs-keyword\">return</span> {\n                    id: m[<span class=\"hljs-number\">0</span>].configuration,\n                    configuration: m[<span class=\"hljs-number\">0</span>].configuration,\n                    sizes: _.map(m, <span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> (<span class=\"hljs-params\">a</span>) </span>{\n                        <span class=\"hljs-keyword\">return</span> a.sizeMm\n                    })\n                }\n            });\n            deferred.resolve(mapped);\n        });\n        <span class=\"hljs-keyword\">return</span> deferred.promise;\n    };\n\n    <span class=\"hljs-keyword\">return</span> {\n        config: getConfigurations()\n    }\n\n<font size=\"3\">});</font></code></pre><blockquote><p>测试引用的css</p></blockquote><p><br></p>"
+    },
+    {
+        "id": 2,
+        "category": "票务",
+        "title": "2平日48小时滑雪",
+        "description": "平日48小时滑雪套票",
+        "thumb": {
+            "thumbUrl": "http://static.journeynes.com/article/upload_2abcd6bbe14ce91e796739a051ff063c.jpg",
+            "linkUrl": "http://www.baidu.com"
+        },
+        "price": 453,
+        "parameters": {
+            "价格": "￥ 453",
+            "消费日期": "2017-3-1 至 2018-3-3"
+        },
+        "content": "<p><img src=\"http://static.journeynes.com/article/upload_cadf321725fec1b619706bd50634cfa3.jpg\" alt=\"11\" style=\"max-width:100%;\"></p><p><font size=\"3\">在&nbsp;<a href=\"http://taobaofed.org/blog/2016/01/14/nodejs-memory-leak-analyze/\">《一次 Node.js 应用内存暴涨分析》</a>中，我们处理了一个 Node.js vm 引发的内存泄漏问题，处理过程也是比较艰辛。而在我们实际开发中，可能经常会碰到内存泄漏的问题，但很多情况下，我们对于这种问题的处理是有些迷茫的，没有一定的操作流程，效率比较低。虽然这种问题对于经验的要求比较高，但如果有一个简单的排查流程，还是会有一定帮助的。</font></p><p><font size=\"3\">这里简单整理一个流程，欢迎一起探讨，补充。</font></p><h1><font size=\"5\">一、重现问题</font></h1><p><font size=\"3\">对于垃圾回收，V8 引擎有很复杂的逻辑来决定什么时候进行回收。很多时候，当我们发现 Node.js 进程所使用的内存快速增长的时候，并不能确定是否是内存泄漏导致的，很有可能是程序设计问题，导致内存的不合理利用。只有当垃圾回收触发，未使用内存被释放后，内存增长还在持续，我们才能确定是发生了内存泄漏。</font></p><p><font size=\"3\">隐藏的内存泄漏问题，大多是有触发条件的，重现问题是需要这些条件的，所以我们在平时写代码的时候，可以将一些重要环节的参数细节打印在 log 中，这样我们在重现问题是就不会摸不着头脑，乱试一气。</font></p><p><font size=\"3\">有了参数可以用来重现问题，接下来要确定问题。我们要确定，这部分内存是否没有被 GC 正确释放。那么问题来了，我们如何知道程序进行了垃圾回收呢？很显然，等待并不是办法，我们要主动。</font></p><p><font size=\"3\">在 Node.js 的启动参数中，提供了暴露手动调用 GC 方法的参数，即&nbsp;--expose-gc。我们用这个参数来启动应用后，就可以在代码中调用&nbsp;global.gc()&nbsp;手动触发垃圾回收操作。同时，使用&nbsp;process.memoryUsage().heapUsed&nbsp;获取进程运行时所占用的内存。如果 GC 之后，内存依然没有下降，就可以确定是内存泄露了。</font></p><h4><font size=\"3\"><a href=\"http://taobaofed.org/blog/2016/04/15/how-to-find-memory-leak/#二、生成内存快照\"></a>二、生成内存快照</font></h4><p><font size=\"3\">既然内存是问题，我们就需要获取程序运行的内存快照来帮助定位问题。但内存快照并不是随便打得，是有一定技巧的。</font></p><p><font size=\"3\">我们至少要生成三次内存快照，才能更好的定位问题。这三次中又一次要在问题出现前生成，之后可以在问题持续的过程中生成两次或更多。</font></p><p><font size=\"3\">为什么要这样做呢？理解起来很简单。第一次是为了获取正常情况下的堆栈信息，而在问题出现后，堆栈信息一定会发生变化，有了第一次的信息，我们才好进行后面的比对，过滤一些无用的信息。而后两次的快照，用来比对某一对象的堆栈变化，来确定是否是有问题的对象。下面会详细应用到。</font></p><p></p><h4><font size=\"3\"><a href=\"http://taobaofed.org/blog/2016/04/15/how-to-find-memory-leak/#三、定位问题\"></a>三、定位问题</font></h4><p><br></p>"
+    }
+]

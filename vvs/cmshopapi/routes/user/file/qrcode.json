@@ -1,0 +1,109 @@
+[
+    {
+        "title": "用户名",
+        "value": "journey",
+        "name": "username",
+        "type": "text",
+        "readonly": true
+    },
+    {
+        "title": "邮箱",
+        "value": "",
+        "name": "email",
+        "type": "email",
+        "readonly": false
+    },
+    {
+        "title": "手机号码",
+        "value": "",
+        "name": "tel",
+        "type": "tel",
+        "readonly": false
+    },
+    {
+        "title": "生日",
+        "value": "",
+        "name": "birthday",
+        "type": "date",
+        "readonly": false
+    },
+    {
+        "title": "注册日期",
+        "value": "2017-3-10",
+        "name": "registerTime",
+        "type": "date",
+        "readonly": false
+    },
+    {
+        "title": "时间选择",
+        "value": "",
+        "name": "time",
+        "type": "time",
+        "readonly": false
+    },
+    {
+        "title": "爱好",
+        "value": [0,1],
+        "name": "hobby",
+        "type": "checkbox",
+        "valueArr": {
+            "0": {
+                "title": "篮球",
+                "checked": false
+            },
+            "1": {
+                "title": "足球",
+                "checked": true
+            },
+            "2": {
+                "title": "乒乓球",
+                "checked": true
+            },
+            "3": {
+                "title": "羽毛球",
+                "checked": false
+            }
+        },
+        "readonly": false
+    },
+    {
+        "title": "性别",
+        "value": 0,
+        "name": "sex",
+        "type": "radio",
+        "valueArr": {
+            "male": {
+                "title": "男",
+                "checked": true
+            },
+            "female": {
+                "title": "女",
+                "checked": false
+            },
+            "secret": {
+                "title": "保密",
+                "checked": false
+            }
+        },
+        "readonly": false
+    },
+    {
+        "title": "城市",
+        "value": 1,
+        "name": "address",
+        "type": "select",
+        "valueArr": {
+            "nanjin": "南京",
+            "beijin": "北京",
+            "maanshan": "马鞍山"
+        },
+        "readonly": false
+    },
+    {
+        "title": "备注",
+        "value": "备注我高兴填什么就填什么",
+        "name": "remark",
+        "type": "textarea",
+        "readonly": false
+    }
+]

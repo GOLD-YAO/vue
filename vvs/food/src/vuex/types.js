@@ -1,0 +1,40 @@
+//首页商家列表
+export const INIT_SHOP_LIST = 'INIT_SHOP_LIST'
+
+//商家详情页
+export const INIT_SHOP_DETAIL_INFO = 'INIT_SHOP_DETAIL_INFO'
+
+export const SWITCH_SID = 'SWITCH_SID'
+
+//购物车SWITCH
+export const SWITCH_FOOD_IN_CART = 'SWITCH_FOOD_IN_CART'
+
+export const DELETE_FOOD_IN_CART = 'DELETE_FOOD_IN_CART'
+
+export const LOGING_REFRESH_FOOD_CART = 'LOGING_REFRESH_FOOD_CART'
+
+//餐具mutations
+export const INIT_WARE_INFO = 'INIT_WARE_INFO'
+
+export const SWITCH_WARE_COUNT = 'SWITCH_WARE_COUNT'
+
+//桌号填写
+export const SWITCH_TABLE_NUMBER = 'SWITCH_TABLE_NUMBER'
+
+//用户中心
+export const INIT_LOGING_USER = 'INIT_LOGING_USER'
+
+export const USER_LOGOUT_ACTION = 'USER_LOGOUT_ACTION'
+
+//订单列表
+export const INIT_ORDER_LIST = 'INIT_ORDER_LIST'
+
+export const SWITCH_ORDER_TYPE = 'SWITCH_ORDER_TYPE'
+
+//清除订单列表
+export const CLEAR_ORDER_LIST = 'CLEAR_ORDER_LIST'
+
+//办理押金状态保存
+export const DEPOSIT_ORDER_INFO = 'DEPOSIT_ORDER_INFO'
+
+export const CLEAR_DEPOSIT_INFO = 'CLEAR_DEPOSIT_INFO'

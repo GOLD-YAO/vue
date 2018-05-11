@@ -1,0 +1,122 @@
+[
+    {
+        "orderid": 201708171022,
+        "telephone": 13999999999,
+        "products": [
+            {
+                "id": 19,
+                "title": "半天教练",
+                "qrcodeCount": 2,
+                "qrcodeDetail": [
+                    {
+                        "id": 0,
+                        "state": 1,
+                        "remark": "儿子的",
+                        "url": "http://static.journeynes.com/qrcode.png",
+                        "needMoreInfo": false
+                    },
+                    {
+                        "id": 1,
+                        "state": 0,
+                        "remark": "",
+                        "url": "http://static.journeynes.com/qrcode.png",
+                        "needMoreInfo": true,
+                        "link": false
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "title": "3五星级酒店标间",
+                "qrcodeCount": 1,
+                "qrcodeDetail": [
+                    {
+                        "id": 2,
+                        "state": 1,
+                        "remark": "我自己的全天滑雪",
+                        "url": "http://static.journeynes.com/qrcode.png",
+                        "needMoreInfo": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "orderid": 201708171023,
+        "telephone": 18014820555,
+        "products": [
+            {
+                "id": 1,
+                "title": "1平日48小时滑雪",
+                "qrcodeCount": 2,
+                "qrcodeDetail": [
+                    {
+                        "id": 11,
+                        "state": 1,
+                        "remark": "老婆的",
+                        "url": "http://static.journeynes.com/qrcode.png",
+                        "needMoreInfo": false
+                    },
+                    {
+                        "id": 12,
+                        "state": 0,
+                        "remark": "",
+                        "url": "http://static.journeynes.com/qrcode.png",
+                        "needMoreInfo": true,
+                        "link": false
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "title": "12平日48小时滑雪3",
+                "qrcodeCount": 6,
+                "qrcodeDetail": [
+                    {
+                        "id": 13,
+                        "state": 1,
+                        "remark": "老婆的",
+                        "url": "http://static.journeynes.com/qrcode.png",
+                        "needMoreInfo": false
+                    },
+                    {
+                        "id": 14,
+                        "state": 0,
+                        "remark": "",
+                        "url": "http://static.journeynes.com/qrcode.png",
+                        "needMoreInfo": true,
+                        "link": "http://www.baidu.com"
+                    },
+                    {
+                        "id": 15,
+                        "state": 1,
+                        "remark": "",
+                        "url": "http://static.journeynes.com/qrcode.png",
+                        "needMoreInfo": false
+                    },
+                    {
+                        "id": 16,
+                        "state": 0,
+                        "remark": "",
+                        "url": "http://static.journeynes.com/qrcode.png",
+                        "needMoreInfo": false
+                    },
+                    {
+                        "id": 17,
+                        "state": 1,
+                        "remark": "老婆的",
+                        "url": "http://static.journeynes.com/qrcode.png",
+                        "needMoreInfo": false
+                    },
+                    {
+                        "id": 18,
+                        "state": 1,
+                        "remark": "张三的",
+                        "url": "http://static.journeynes.com/qrcode.png",
+                        "needMoreInfo": false
+                    }
+                ]
+            }
+        ]
+    }
+]

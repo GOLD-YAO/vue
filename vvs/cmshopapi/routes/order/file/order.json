@@ -1,0 +1,367 @@
+[
+    {
+        "orderid": 201708171013,
+        "products":{
+            "21" : [
+                {
+                    "id": 1,
+                    "title": "1平日48小时滑雪",
+                    "description": "测试描述数据测试描述数据测试描述数据测试描述数据测试描述数据测试描述数据测试描述数据测试描述数据",
+                    "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+                    "price": 23.31,
+                    "count": 2
+                },
+                {
+                    "id": 12,
+                    "title": "12平日48小时滑雪3",
+                    "description": "测试描述数据",
+                    "thumb": "http://static.journeynes.com/article/upload_cadf321725fec1b619706bd50634cfa3.jpg",
+                    "price": 1309.31,
+                    "count": 6
+                }
+            ],
+            "3" : [
+                {
+                    "id": 1,
+                    "title": "1平日48小时滑雪",
+                    "description": "测试描述数据测试描述数据测试描述数据测试描述数据测试描述数据测试描述数据测试描述数据测试描述数据",
+                    "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+                    "price": 23.31,
+                    "count": 2
+                },
+                {
+                    "id": 12,
+                    "title": "12平日48小时滑雪3",
+                    "description": "测试描述数据",
+                    "thumb": "http://static.journeynes.com/article/upload_cadf321725fec1b619706bd50634cfa3.jpg",
+                    "price": 1309.31,
+                    "count": 6
+                }
+            ],
+            "5" : [
+                {
+                    "id": 1,
+                    "title": "1平日48小时滑雪",
+                    "description": "测试描述数据测试描述数据测试描述数据测试描述数据测试描述数据测试描述数据测试描述数据测试描述数据",
+                    "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+                    "price": 23.31,
+                    "count": 2
+                },
+                {
+                    "id": 12,
+                    "title": "12平日48小时滑雪3",
+                    "description": "测试描述数据",
+                    "thumb": "http://static.journeynes.com/article/upload_cadf321725fec1b619706bd50634cfa3.jpg",
+                    "price": 1309.31,
+                    "count": 6
+                }
+            ]
+        },
+        "asscoiateLink": "http://static.journeynes.com/qrcode.png",
+        "orderCode": 1123123,
+        "createTime": "2017-8-15 07:31:54",
+        "allPrice": 8135.85,
+        "type": 1,
+        "state": -1,
+        "fromThird": 1
+    },
+    {
+        "orderid": 201708171014,
+        "products": [
+            {
+                "id": 1,
+                "title": "1平日48小时滑雪",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+                "price": 23.31,
+                "count": 2
+            },
+            {
+                "id": 12,
+                "title": "12平日48小时滑雪3",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_cadf321725fec1b619706bd50634cfa3.jpg",
+                "price": 1309.31,
+                "count": 6
+            }
+        ],
+        "asscoiateLink": "http://static.journeynes.com/qrcode.png",
+        "orderCode": 1123123,
+        "createTime": "2017-8-15 07:31:54",
+        "allPrice": 8135.85,
+        "type": 2,
+        "state": 21,
+        "fromThird": 1
+    },
+    {
+        "orderid": 201708171017,
+        "products": [
+            {
+                "id": 19,
+                "title": "半天教练",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+                "price": 44.31,
+                "count": 2
+            },
+            {
+                "id": 18,
+                "title": "3五星级酒店标间",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+                "price": 44.31,
+                "count": 1
+            }
+        ],
+        "createTime": "2017-8-15 07:31:54",
+        "allPrice": 132.93,
+        "type": 1,
+        "state": 1,
+        "fromThird": 0
+    },
+    {
+        "orderid": 201708171018,
+        "products": [
+            {
+                "id": 19,
+                "title": "半天教练",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+                "price": 44.31,
+                "count": 2,
+                "depositFee": 80,
+                "state": true,
+                "realTime": "2017-8-1 至 2017-9-30"
+            },
+            {
+                "id": 18,
+                "title": "3五星级酒店标间",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+                "price": 44.31,
+                "count": 1,
+                "depositFee": 80,
+                "state": true,
+                "realTime": "2017-8-1 至 2017-9-30"
+            }
+        ],
+        "minFee": 120,
+        "createTime": "2017-8-15 07:31:54",
+        "allPrice": 132.93,
+        "type": 2,
+        "state": 2,
+        "fromThird": 0
+    },
+    {
+        "orderid": 201708171019,
+        "products": [
+            {
+                "id": 1,
+                "title": "1平日48小时滑雪",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+                "price": 23.31,
+                "count": 2,
+                "depositFee": 70,
+                "state": true
+            },
+            {
+                "id": 12,
+                "title": "12平日48小时滑雪3",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_cadf321725fec1b619706bd50634cfa3.jpg",
+                "price": 1309.31,
+                "count": 6,
+                "depositFee": 130,
+                "state": true
+            }
+        ],
+        "createTime": "2017-8-15 07:31:54",
+        "allPrice": 8135.85,
+        "type": 2,
+        "state": 2,
+        "fromThird": 0
+    },
+    {
+        "orderid": 201708171022,
+        "products": [
+            {
+                "id": 19,
+                "title": "半天教练",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+                "price": 44.31,
+                "count": 2
+            },
+            {
+                "id": 18,
+                "title": "3五星级酒店标间",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+                "price": 44.31,
+                "count": 1
+            }
+        ],
+        "createTime": "2017-8-15 07:31:54",
+        "allPrice": 132.93,
+        "type": 3,
+        "state": 3,
+        "fromThird": 0
+    },
+    {
+        "orderid": 201708171023,
+        "products": [
+            {
+                "id": 1,
+                "title": "1平日48小时滑雪",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+                "price": 23.31,
+                "count": 2
+            },
+            {
+                "id": 12,
+                "title": "12平日48小时滑雪3",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_cadf321725fec1b619706bd50634cfa3.jpg",
+                "price": 1309.31,
+                "count": 6
+            }
+        ],
+        "createTime": "2017-8-15 07:31:54",
+        "allPrice": 8135.85,
+        "type": 3,
+        "state": 4,
+        "fromThird": 0
+    },
+    {
+        "orderid": 201708171033,
+        "products": [
+            {
+                "id": 19,
+                "title": "半天教练",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+                "price": 44.31,
+                "count": 2
+            },
+            {
+                "id": 18,
+                "title": "3五星级酒店标间",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+                "price": 44.31,
+                "count": 1
+            }
+        ],
+        "createTime": "2017-8-15 07:31:54",
+        "allPrice": 132.93,
+        "type": 4,
+        "state": 5,
+        "fromThird": 0
+    },
+    {
+        "orderid": 201708171033,
+        "products": [
+            {
+                "id": 19,
+                "title": "半天教练",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+                "price": 44.31,
+                "count": 2
+            },
+            {
+                "id": 18,
+                "title": "3五星级酒店标间",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+                "price": 44.31,
+                "count": 1
+            }
+        ],
+        "createTime": "2017-8-15 07:31:54",
+        "allPrice": 132.93,
+        "type": 4,
+        "state": 5,
+        "fromThird": 1
+    },
+    {
+        "orderid": 201708171044,
+        "products": [
+            {
+                "id": 1,
+                "title": "1平日48小时滑雪",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+                "price": 23.31,
+                "count": 2
+            },
+            {
+                "id": 12,
+                "title": "12平日48小时滑雪3",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_cadf321725fec1b619706bd50634cfa3.jpg",
+                "price": 1309.31,
+                "count": 6
+            }
+        ],
+        "createTime": "2017-8-15 07:31:54",
+        "allPrice": 8135.85,
+        "type": 4,
+        "state": 5,
+        "fromThird": 0
+    },
+    {
+        "orderid": 201708171077,
+        "products": [
+            {
+                "id": 1,
+                "title": "1平日48小时滑雪",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+                "price": 23.31,
+                "count": 2
+            },
+            {
+                "id": 12,
+                "title": "12平日48小时滑雪3",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_cadf321725fec1b619706bd50634cfa3.jpg",
+                "price": 1309.31,
+                "count": 6
+            }
+        ],
+        "createTime": "2017-8-15 07:31:54",
+        "allPrice": 46.62,
+        "type": 5,
+        "state": 6,
+        "fromThird": 0
+    },
+    {
+        "orderid": 201708171077,
+        "products": [
+            {
+                "id": 1,
+                "title": "1平日48小时滑雪",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_273fa971b648e29feed3379e41a7c8bd.jpg",
+                "price": 23.31,
+                "count": 2
+            },
+            {
+                "id": 12,
+                "title": "12平日48小时滑雪3",
+                "description": "测试描述数据",
+                "thumb": "http://static.journeynes.com/article/upload_cadf321725fec1b619706bd50634cfa3.jpg",
+                "price": 1309.31,
+                "count": 6
+            }
+        ],
+        "createTime": "2017-8-15 07:31:54",
+        "allPrice": 46.62,
+        "type": 5,
+        "state": 7,
+        "fromThird": 0
+    }
+]
